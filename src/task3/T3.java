@@ -8,8 +8,8 @@ import java.io.IOException;
 public class T3 {
         public static void main(String[] args) {
 
-            String testsFile = "task3/tests.json";
-            String valuesFile = "task3/values.json";
+            String testsFile = "tests.json";
+            String valuesFile = "values.json";
             String reportFile = "report.json";
 
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
